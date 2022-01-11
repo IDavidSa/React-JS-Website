@@ -1,0 +1,131 @@
+section{
+    margin: 3%;
+}
+
+.cabecalho{
+    background-color: var(--bg-color);
+    border-top: solid 1px var(--text);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 45vh;
+}
+
+.cabecalho-titulos h1{
+    color: rgb(240, 182, 23);
+    font-size: 2.1em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.cabecalho-titulos p{
+    font-size: 1.3em;
+}
+
+.cabecalho-especialidades{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.especialidades-item{
+    display: flex;
+    gap: 15px;
+    padding: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.beneficios-titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 3em;
+    
+}
+
+h2{
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.7em;
+}
+
+.beneficios-lista{
+    display: flex;
+    list-style-type: none;
+    width: 85%;
+    justify-content: space-around;
+    margin: 4em;
+}
+
+.beneficios-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 25%;
+    gap: 12px;
+}
+
+.depoimentos{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.card{
+    width: 20%;
+    margin: 2%;
+    text-align: center;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
+}
+
+.botao{
+    background-color: var(--bg-color);
+    color: var(--text);
+    padding: 15px 42px;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: var(--bg-hover);
+    transition: background .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}

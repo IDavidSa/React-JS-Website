@@ -1,0 +1,23 @@
+:root{
+    --bg-color:rgb(26, 26, 153);
+    --bg-hover:rgb(40, 40, 224);
+    --text:white;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+}
